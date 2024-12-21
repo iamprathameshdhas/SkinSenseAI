@@ -1,0 +1,242 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Is anyone there?",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Howdy",
+        "Hi there",
+        "Hey there",
+        "Hello there",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What brings you here today?",
+        "Greetings! How can I help you?",
+        "Hey! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "I have to go",
+        "Catch you later",
+        "See you",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Take care!",
+        "See you later! Stay healthy!",
+        "Bye! Feel free to reach out anytime.",
+        "Take care! See you next time."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "That's helpful",
+        "Thanks a lot",
+        "Thank you very much",
+        "Much appreciated"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Stay well!",
+        "Glad I could assist!",
+        "My pleasure! Take care."
+      ]
+    },
+    {
+      "tag": "start_diagnosis",
+      "patterns": [
+        "I'm feeling unwell",
+        "I am feeling sick",
+        "I have a Skin Rash",
+        "My Skin is feeling itchy",
+        "I am experiencing growth of unidentified skin spot/lesion",
+        "There is a new spot on my skin",
+        "Can you help with symptoms?",
+        "I have a skin issue",
+        "Can you help with a skin problem?",
+        "I think I have a skin disease",
+        "I need help with a skin condition",
+        "Can you diagnose skin cancer?",
+        "I'm worried about my skin",
+        "My skin looks different",
+        "There's something wrong with my skin"
+      ],
+      "responses": [
+        "I'm here to help. Can you describe the skin issue you're experiencing?",
+        "Sure, I can assist. Please describe your skin condition.",
+        "Let's get started. Can you tell me more about your skin problem?",
+        "Yes, I can help with that. Please provide more details about your skin issue."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "It's on my face",
+        "The issue is on my arm",
+        "I have a problem on my leg",
+        "It's on my back",
+        "The skin issue is on my chest",
+        "I'm experiencing discomfort on my face",
+        "There's a problem on my arm",
+        "My leg has an issue",
+        "The back is bothering me",
+        "I have a chest problem",
+        "It's on my neck",
+        "It's on my hand",
+        "The issue is on my foot",
+        "I have an issue on my shoulder"
+      ],
+      "responses": [
+        "Got it. How long have you had this issue?",
+        "Okay, and how long have you noticed this problem?",
+        "Understood. When did you first notice this issue?",
+        "Alright, how long has this been a concern for you?"
+      ]
+    },
+    {
+      "tag": "duration",
+      "patterns": [
+        "It's been a few days",
+        "I've had it for a week",
+        "It's been a month",
+        "For several months",
+        "Over a year",
+        "I've been experiencing this for a while now",
+        "It's been bothering me for some time",
+        "This has been ongoing for quite some time",
+        "It's been going on for a few weeks",
+        "It started recently",
+        "A couple of days",
+        "A few hours",
+        "For a long time",
+        "Since last year"
+      ],
+      "responses": [
+        "Thanks for the information. Is the affected area itchy, painful, or showing any other symptoms?",
+        "Okay, is the skin issue causing itching, pain, or any other symptoms?",
+        "Understood. Is the area itchy, painful, or are there any other noticeable symptoms?",
+        "Got it. Are you experiencing itching, pain, or any other symptoms?"
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "It's itchy",
+        "There's pain",
+        "It's red and swollen",
+        "I see a rash",
+        "There's a mole that's changing",
+        "It's bleeding or crusty",
+        "My skin feels itchy",
+        "There's discomfort",
+        "I notice redness and swelling",
+        "I have a rash",
+        "I'm concerned about a mole",
+        "I have a crusty spot on my skin",
+        "It hurts",
+        "There's a lump",
+        "It's sore",
+        "I feel a burning sensation"
+      ],
+      "responses": [
+        "Thanks for sharing. Have you noticed any changes in size, shape, or color of the affected area?",
+        "Okay, have you observed any changes in size, shape, or color of the area?",
+        "Understood. Have there been any changes in size, shape, or color?",
+        "Got it. Have you noticed any changes in the size, shape, or color of the affected area?",
+        "Have you been out in the Sun a lot in any time period of your life?"
+      ]
+    },
+    {
+      "tag": "changes",
+      "patterns": [
+        "Yes, it's getting bigger",
+        "Yes, it's getting smaller",
+        "It's changing shape",
+        "The color is different",
+        "It's growing",
+        "No, it looks the same",
+        "No changes",
+        "It's the same",
+        "How can I check my skin issue?",
+        "Can you help me diagnose my skin problem?",
+        "What should I do to check my skin condition?",
+        "I need to diagnose my skin lesion",
+        "How do I use your diagnosis system?",
+        "I think it's changing size",
+        "The color seems different now",
+        "It seems to be spreading",
+        "I'm not sure if it's the same as before"
+      ],
+      "responses": [
+        "Thank you for the details. Please feel comfortable to use our Automated Diagnostic System.\n- Step 1: Upload a High Resolution Image of the lesion.\n- Step 2: Adjust the Parameters - Age, Sex, and Body Part.\n- Step 3: Press the Predict Button.\n\nData Protection Notice: Your data is protected with end-to-end encryption and is not stored anywhere."
+      ]
+    },
+    {
+      "tag": "symptoms_info",
+      "patterns": [
+        "What are common symptoms of skin cancer?",
+        "What should I look out for with skin cancer?",
+        "How do I know if it's skin cancer?",
+        "What signs indicate skin cancer?",
+        "What are the early signs of skin cancer?",
+        "How can I detect skin cancer?"
+      ],
+      "responses": [
+        "Common symptoms of skin cancer include:\n- A new mole or a change in an existing mole\n- A sore that doesn't heal\n- A spot that becomes itchy, painful, or tender\n- Redness or new swelling beyond the border of a mole\n- Changes in sensation (itchiness, tenderness, pain)\n- Changes in the surface of a mole (scaliness, oozing, bleeding, or the appearance of a lump or bump).",
+        "Look out for these signs:\n- A growth that increases in size and appears pearly, translucent, tan, brown, black, or multicolored\n- A mole that changes in color, size, or feel\n- A spot that itches, hurts, or bleeds\n- A sore that doesn't heal\n- A mole that looks different from the others (the ugly duckling sign)",
+        "Signs of skin cancer include:\n- A new growth or a sore that doesn't heal\n- Changes in an existing mole\n- Redness or new swelling beyond the border of a mole\n- Changes in sensation (itchiness, tenderness, pain)\n- Changes in the surface of a mole (scaliness, oozing, bleeding)",
+        "Skin cancer symptoms to watch for:\n- A new mole or changes in an existing mole\n- A sore that doesn't heal\n- Redness or new swelling beyond the border of a mole\n- Changes in sensation (itchiness, tenderness, pain)\n- Changes in the surface of a mole (scaliness, oozing, bleeding)"
+      ]
+    },{
+      "tag": "causes",
+      "patterns": [
+        "What causes skin cancer?",
+        "How do people get skin cancer?",
+        "What are the risk factors for skin cancer?",
+        "Why do people get skin cancer?",
+        "What might have cause this skin issue?",
+        "How did I get this Skin disease?"
+      ],
+      "responses": [
+        "Common causes and risk factors for skin disease include:\n- Excessive exposure to ultraviolet (UV) radiation from the sun or tanning beds\n- Having fair skin, light hair, and light eyes\n- A history of sunburns, especially in early life\n- Having many moles or unusual moles\n- Family history of skin cancer\n- Weakened immune system. Do you think you might have this?",
+        "Skin Diesase can be caused by:\n- Prolonged exposure to UV radiation from the sun or tanning beds\n- Genetic predisposition (family history of skin cancer)\n- Fair skin that burns or freckles easily\n- A large number of moles or unusual moles\n- Immune system suppression. Do you think you might have this?",
+        "Risk factors for skin disease include:\n- UV radiation from the sun or tanning beds\n- Fair complexion, light hair, and light eyes\n- History of sunburns, particularly blistering sunburns\n- Numerous or atypical moles\n- Family history of skin cancer\n- Immune suppression. Do you think you might have this?",
+        "People can get skin disease due to:\n- Excessive UV exposure from the sun or artificial sources\n- Genetic factors (family history of skin cancer)\n- Fair skin, light-colored eyes, and hair\n- A high number of moles or atypical moles\n- Weakened immune system.Do you think you might have this?"
+      ]
+    },
+    {
+      "tag": "ask_symptoms",
+      "patterns": [
+        "I've been exposed to a lot of sun",
+        "I used tanning beds a lot",
+        "I have a family history of skin cancer",
+        "I have fair skin and light hair",
+        "I have many moles",
+        "I have a weak immune system"
+      ],
+      "responses": [
+        "Thank you for sharing that information. Do you have any of the following symptoms?\n- A new mole or a change in an existing mole\n- A sore that doesn't heal\n- A spot that becomes itchy, painful, or tender\n- Redness or new swelling beyond the border of a mole\n- Changes in sensation (itchiness, tenderness, pain)\n- Changes in the surface of a mole (scaliness, oozing, bleeding)"
+      ]
+    }
+  ]
+}
